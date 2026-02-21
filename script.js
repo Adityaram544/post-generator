@@ -8,7 +8,7 @@ document.getElementById("year").innerText = new Date().getFullYear();
    Call Google Gemini API
 ---------------------------------------------------- */
 async function callGemini(prompt, platforms) {
-  const apiKey = "AIzaSyDl01LbQFN3y9hxPtHrfeq71wu8ILP5JsE"; // ⚠️ Avoid exposing in frontend
+  const apiKey = 
 
   const payload = {
     contents: [
@@ -150,3 +150,4 @@ function copyText(text) {
     setTimeout(() => msg.remove(), 400);
   }, 1500);
 }
+
